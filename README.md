@@ -1,10 +1,10 @@
 # mongodb-kubernetes
-##Mongodb cluster with kubernetes in digitalocean(Ubuntu)
+## Mongodb cluster with kubernetes in digitalocean(Ubuntu)
 prerequisites needed:
 - [doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
-###task1
+### task1
 - Create kubernetes cluster in your project segment in digitalocean.
 - choose 
 -- datacenter:bangalore
@@ -17,7 +17,7 @@ and others as default
 ![setting the nodes2](images/t3.png)
 ![setting the nodes3](images/t4.png)
 
-###task2
+### task2
 - After node Creation,scroll down and press "Overview"
 - press "Get started!"
 - In "connecting to kubernetes" , copy the command and paste it in terminal of the linux.
@@ -25,7 +25,7 @@ and others as default
 ![get started](images/t5.png)
 ![doctl code in terminal](images/t6.png)
 
-###task3
+### task3
 - files have been created already for deployment
 - change the credentials in mongodb-secrets.yaml of your own with base64 encoder!
 - press right click on mouse and click "open in terminal", there copy this codes
@@ -52,7 +52,7 @@ if this doesn't work. then copy below code and paaste it.
 mongodb
 ```
 
-##Successfully completed the task!
+## Successfully completed the task!
 credits:[arpan](https://www.youtube.com/watch?v=V5-0bJXTq4E)
 
 
