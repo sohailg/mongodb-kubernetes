@@ -50,7 +50,7 @@ replace #username/#password with your credentials.
 if this doesn't work. then copy below code and paaste it.
 ```sh
 mongodb
-'''
+```
 
 ##Successfully completed the task!
 credits:[arpan](https://www.youtube.com/watch?v=V5-0bJXTq4E)
